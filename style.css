@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.add {
+.add__wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -58,12 +58,12 @@ body {
   color: #3a3a3a;
 }
 
-.button_delete__image {
+.button__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button_delete__image:hover {
+.button__image:hover {
   transform: rotateZ(0);
 }
 
@@ -93,7 +93,7 @@ body {
   color: #333;
 }
 
-.add__subheading {
+.subheading_add {
   display: block;
   margin: 0 0 20px;
 }
@@ -133,12 +133,12 @@ body {
   color: #888;
 }
 
-.editMode .edit {
+.edit-mode .edit {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .task__label {
+.edit-mode .task__label {
   display: none;
 }
 
